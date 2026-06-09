@@ -434,7 +434,7 @@ function computeStandings(fixtures){
 const DE_DAYS=["So","Mo","Di","Mi","Do","Fr","Sa"];
 const DE_MON=["Jan","Feb","März","Apr","Mai","Juni","Juli","Aug","Sep","Okt","Nov","Dez"];
 const fmtDate=(iso)=>{const d=new Date(iso+"T12:00:00");return `${DE_DAYS[d.getDay()]}, ${d.getDate()}. ${DE_MON[d.getMonth()]}`;};
-const KICKOFF=new Date("2026-06-11T20:00:00-06:00").getTime();
+const KICKOFF=new Date("2026-06-11T21:00:00+02:00").getTime();
 const pad=(n)=>String(n).padStart(2,"0");
 const isoLocal=(d)=>`${d.getFullYear()}-${pad(d.getMonth()+1)}-${pad(d.getDate())}`;
 const hhmm=(d)=>`${pad(d.getHours())}:${pad(d.getMinutes())}`;
