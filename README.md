@@ -14,15 +14,7 @@ Dank des **PWA-Supports** kann die App direkt aus dem Browser heraus wie eine na
 - **🏟️ Stadion-Modal:** Ein Klick auf ein Spiel öffnet erweiterte Details mit Stadion-Foto, Head-to-Head-Stats, Live-Spielverlauf und (simulierten) Aufstellungen.
 - **🌳 Automatischer K.o.-Baum:** Der Turnierbaum füllt sich anhand der Gruppen-Ergebnisse komplett automatisch.
 
-## 🚀 Installation & Hosting (GitHub Pages)
-
-Diese App benötigt keinen eigenen Server oder eine Datenbank. Sie kann komplett kostenlos über GitHub Pages gehostet werden.
-
-1. Lade alle Dateien aus diesem Repository hoch (`index.html`, `manifest.json`, `sw.js`, `icon.svg`).
-2. Gehe in den GitHub-Einstellungen deines Repositories auf **Settings** -> **Pages**.
-3. Wähle unter *Build and deployment* die *Source* **"Deploy from a branch"**.
-4. Wähle im Dropdown den Branch **`main`** (oder `master`) und klicke auf **Save**.
-5. Nach ca. 1-2 Minuten ist die Seite unter `https://<dein-username>.github.io/<repo-name>/` erreichbar!
+## 🚀 Installation
 
 ### Auf dem Smartphone installieren
 Rufe den generierten GitHub-Pages-Link auf dem Handy auf:
