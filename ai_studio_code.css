@@ -1,0 +1,21 @@
+/* DESIGN TOKENS FÜR ANTIGRAVITY */
+:root {
+  --ai-matte-surface: rgba(17, 19, 24, 0.8);
+  --ai-blur: 60px;
+  --ai-border: 1px solid rgba(255, 255, 255, 0.08);
+  --ai-glow-blue: #1a73e8;
+  --ai-glow-purple: #c58af9;
+  --ai-button-pill: 100px;
+}
+
+/* BUTTON COMPONENT STYLE */
+.glass-button {
+  background: rgba(255, 255, 255, 0.04);
+  backdrop-filter: blur(10px);
+  border: var(--ai-border);
+  transition: all 0.3s ease;
+}
+.glass-button:hover {
+  box-shadow: 0 0 20px rgba(138, 180, 248, 0.3);
+  transform: scale(1.02);
+}
