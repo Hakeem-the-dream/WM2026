@@ -72,7 +72,6 @@
   .topbar{position:sticky;top:0;z-index:20;display:flex;justify-content:space-between;align-items:center;gap:16px;
     padding:13px clamp(14px,4vw,40px);background:var(--ai-matte-surface);backdrop-filter:blur(var(--ai-blur));-webkit-backdrop-filter:blur(var(--ai-blur));border-bottom:var(--ai-border)}
   .brand{display:flex;align-items:center;gap:13px;position:relative;}
-  .brand-glow{position:absolute;width:260px;height:50px;left:-15px;top:0px;filter:blur(30px);z-index:0;background:color-mix(in srgb, var(--cyan) 80%, transparent);}
   .brand img, .brandtext {position:relative; z-index:1;}
   .brandtext{display:flex;flex-direction:column;line-height:1}
   .kicker{font-size:10px;letter-spacing:.22em;text-transform:uppercase;color:var(--muted);font-weight:700}
@@ -939,8 +938,7 @@ function App(){
       <div className="ambient-bg"><div className="blob b1"/><div className="blob b2"/><div className="blob b3"/></div>
       <header className="topbar">
         <div className="brand">
-          <div className="brand-glow"/>
-          <img src="https://commons.wikimedia.org/wiki/Special:FilePath/2026_FIFA_World_Cup_emblem_(without_trophy).svg" alt="FIFA 2026" style={{height:"36px", objectFit:"contain", filter: theme==="light" ? "invert(1)" : "none"}}/>
+          <img src="https://commons.wikimedia.org/wiki/Special:FilePath/2026_FIFA_World_Cup_emblem_(without_trophy).svg" alt="FIFA 2026" style={{height:"36px", objectFit:"contain", filter: theme==="dark" ? "invert(1)" : "none"}}/>
           <div className="brandtext"><span className="kicker">FIFA Fußball-WM</span><span className="word">2026</span></div>
         </div>
         <div className="controls">
